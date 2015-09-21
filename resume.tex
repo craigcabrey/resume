@@ -1,18 +1,18 @@
-\documentclass[margin, 10pt]{res}
+\documentclass[margin]{res}
 
 \usepackage{mathpazo}
 \usepackage{array,booktabs}
 
 \hoffset = 0.75in
 \voffset = -0.75in
-\textheight = 10in
+\textheight = 11in
 \setlength{\textwidth}{6in}
 
 \newcommand{\fullbar}{\rule{\textwidth}{0.4pt}}
 
 \begin{document}
 
-{\Large\textbf{Craig Cabrey}}
+{\Huge\textbf{Craig Cabrey}}
 \vspace{0.25cm}
 \newline
 102 Usher Lane $\bullet$
@@ -27,14 +27,15 @@ linkedin.com/in/craigcabrey \vspace{-0.5cm}
 
 \section{Objective}  
 
-Aspiring and driven Software Engineering BS/MS student with several years of
-academic and industry experience seeking a full time position starting in the
-Fall of 2016.
+Aspiring and driven Software Engineering student with several years of
+academic, community, and industry experience seeking a full time position
+starting in the Fall of 2016.
 
 \section{Education}
 
-{\sl Bachelor of Science, Master of Science,} Software Engineering \\
-Rochester Institute of Technology, Rochester, NY, expected Summer 2016\\
+{\sl Bachelor of Science \& Master of Science,} Software Engineering
+\hfill Expected Summer 2016 \\
+\textbf{Rochester Institute of Technology} \hfill Rochester, NY
  
 \section{Skills} 
 
@@ -43,18 +44,24 @@ Rochester Institute of Technology, Rochester, NY, expected Summer 2016\\
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{
     >{\arraybackslash}p{2cm}
-    >{\arraybackslash}p{4cm}
-    >{\arraybackslash}p{3.75cm}
-    >{\arraybackslash}p{3.75cm}}
+    >{\arraybackslash}p{4.5cm}
+    >{\arraybackslash}p{3.5cm}
+    >{\arraybackslash}p{3.5cm}}
     & \textbf{Proficient} & \textbf{Familiar} & \textbf{Foundational} \\ \hline
-  \textbf{Languages} & Python, PHP, C\#, Java, SQL & C, Ruby & Vala, Assembly,
-                       Promela, Rust\\ \hline
-  \textbf{Technologies} & nodejs, Django, Laravel, express, ASP.NET MVC &
-                          SharePoint, NoSQL & \LaTeX \\ \hline
-  \textbf{Platforms} & asdf & asdf & asdf \\ \hline
-  \textbf{Tools} & asdf & asdf & asdf \\ \hline
+  \textbf{Languages} & Python, PHP, C\#, Java, SQL & C, Ruby, HTML5, CSS3,
+                       JavaScript & Vala, Assembly, Promela, Rust\\ \hline
+  \textbf{Technologies} & AngularJS, nodejs, express, Laravel,
+                          ASP.NET MVC, Bootstrap & LoopBack, LXC, Docker,
+                          Django, SharePoint & GTK, \LaTeX \\ \hline
+  \textbf{Platforms} & RHEL, Ubuntu, OS X, Windows & FreeBSD, Android &
+                       OpenBSD, Arduino, iOS \\ \hline
+  \textbf{Tools} & git, svn, cvs, vim, tmux, UML & autotools, gdb, valgrind,
+                   Jenkins, JetBrains IDEs & Xcode, Alloy, mercurial
 \end{tabular}
 }
+
+\vspace{-0.25cm}
+\textit{Not a comprehensive table.}
 
 \section{Experience}
 
@@ -62,8 +69,11 @@ Rochester Institute of Technology, Rochester, NY, expected Summer 2016\\
 \textbf{Facebook, Inc.}, Menlo Park, CA
 \begin{itemize}
     \item Developed a suite of open source utilities for the GlusterFS
-          distributed file system. Facilitated the inception of the project,
-          the implementation, and subsequent open source release.
+          distributed file system. Utilities reimplemented standard core
+          utilities specifically for the GlusterFS API. Facilitated the
+          inception of the project, the implementation, and subsequent open
+          source release. Source of the project can be found at
+          github.com/gluster/glusterfs-coreutils.
 \end{itemize}
 
 {\sl Software Engineer Intern} \hfill May 2014 - August 2014 \\
@@ -71,9 +81,8 @@ Rochester Institute of Technology, Rochester, NY, expected Summer 2016\\
 \begin{itemize}
     \item Helped to lead part of a team effort to architect, design, implement,
           and deploy a refactored system as a replacement for a legacy
-          codebase.
-          Success of the project initiated a cultural change in favor of better
-          engineering practices.
+          codebase. Success of the project initiated a cultural change in favor
+          of better engineering practices.
 \end{itemize}
 
 {\sl DevOps Engineer Intern} \hfill August 2013 - May 2014 \\
@@ -103,15 +112,20 @@ Rochester Institute of Technology, Rochester, NY, expected Summer 2016\\
     \item \texttt{reaper}: an open source research tool used to classify
           whether repositories contain engineered software projects. The paper
           is currently pending review for acceptance at the International
-          Conference on Software Engineering (ICSE).
-    \item Rate My Co-op: an application that can be used by students to rate
-          their experiences with co-ops.
+          Conference on Software Engineering (ICSE). Technologies utilized
+          include Python, MySQL, and the GitHub API.
+    \item Rate My Co-op: an application built for RIT students to rate
+          their experiences while on co-op. Technologies utilized include
+          Python, Selenium, nodejs, LoopBack, and AngularJS.
+    \item Self-hosted dynamic DNS: a combination of systems including a FreeBSD
+          router, a BIND9 DNSSEC name server, and glue code that works together
+          to ensure up to date DNS records for home VPN access.
 \end{itemize}
 
-\section{Activities \& Interestes} 
+\section{Extracurricular Activities}
 
-Free and Open Source Software, Society of Software Engineers, codeRIT, Vinyl,
-Motorcycling, Traveling, History, Photography, and American Sign Language
+Free and Open Source Software, Society of Software Engineers, codeRIT, RIT Lug \\
+Vinyl, Motorcycling, Traveling, History, Photography, American Sign Language
 
 \end{resume}
 \end{document}
