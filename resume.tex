@@ -3,10 +3,10 @@
 \usepackage{mathpazo}
 \usepackage{array,booktabs}
 
-\hoffset = 0.75in
+\hoffset = 0.5in
 \voffset = -0.75in
-\textheight = 11in
-\setlength{\textwidth}{6in}
+\textheight = 11.5in
+\setlength{\textwidth}{6.5in}
 
 \newcommand{\fullbar}{\rule{\textwidth}{0.4pt}}
 
@@ -17,11 +17,12 @@
 \newline
 102 Usher Lane $\bullet$
 North Wales, PA 19454 $\bullet$
-github.com/craigcabrey $\bullet$
+cac2573@rit.edu $\bullet$
+(267) 663-8355 $\bullet$
 linkedin.com/in/craigcabrey \vspace{-0.5cm}
 \newline
 \fullbar
-\vspace{-0.5cm}
+\vspace{-0.75cm}
 
 \begin{resume}
 
@@ -44,12 +45,12 @@ starting in the Fall of 2016.
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{
     >{\arraybackslash}p{2cm}
-    >{\arraybackslash}p{4.5cm}
-    >{\arraybackslash}p{3.5cm}
-    >{\arraybackslash}p{3.5cm}}
+    >{\arraybackslash}p{5cm}
+    >{\arraybackslash}p{4cm}
+    >{\arraybackslash}p{3.75cm}}
     & \textbf{Proficient} & \textbf{Familiar} & \textbf{Foundational} \\ \hline
   \textbf{Languages} & Python, PHP, C\#, Java, SQL & C, Ruby, HTML5, CSS3,
-                       JavaScript & Vala, Assembly, Promela, Rust\\ \hline
+                       JavaScript, bash & Vala, Assembly, Promela, Rust \\ \hline
   \textbf{Technologies} & AngularJS, nodejs, express, Laravel,
                           ASP.NET MVC, Bootstrap & LoopBack, LXC, Docker,
                           Django, SharePoint & GTK, \LaTeX \\ \hline
@@ -60,58 +61,71 @@ starting in the Fall of 2016.
 \end{tabular}
 }
 
-\vspace{-0.25cm}
-\textit{Not a comprehensive table.}
-
 \section{Experience}
 
 {\sl Production Engineer Intern} \hfill June 2015 - August 2015 \\
 \textbf{Facebook, Inc.}, Menlo Park, CA
 \begin{itemize}
-    \item Developed a suite of open source utilities for the GlusterFS
+    \item[] Developed a suite of open source utilities for the GlusterFS
           distributed file system. Utilities reimplemented standard core
           utilities specifically for the GlusterFS API. Facilitated the
           inception of the project, the implementation, and subsequent open
           source release. Source of the project can be found at
           github.com/gluster/glusterfs-coreutils.
+          (C, autotools, libgfapi)
 \end{itemize}
 
 {\sl Software Engineer Intern} \hfill May 2014 - August 2014 \\
 \textbf{Datto, Inc.}, Norwalk, CT
 \begin{itemize}
-    \item Helped to lead part of a team effort to architect, design, implement,
-          and deploy a refactored system as a replacement for a legacy
-          codebase. Success of the project initiated a cultural change in favor
-          of better engineering practices.
+    \item[] Built a process known as Hardware Independent Restore (HIR) using
+          modern engineering practices such as dependency injection, package
+          management, principle of least privilege, and in-depth testing.
+          Created an internal repository of libraries used to build HIR for
+          maximum code reuse across the entire development team. HIR is
+          responsible for converting raw image-based backups into virtual
+          machine images prepared for production use.
+          (Ubuntu, PHP, PHPUnit, composer, GitHub, Jenkins)
 \end{itemize}
 
 {\sl DevOps Engineer Intern} \hfill August 2013 - May 2014 \\
 \textbf{Datto, Inc.}, Norwalk, CT
 \begin{itemize}
-    \item Facilitated development of new technologies, infrastructure, and
-          processes to modernize and improve development pace and efficiency.
+    \item[] Introduced automation at various levels of the development
+          processes to improve product quality, development efficiency, and
+          monitoring of production systems. Also designed and implemented
+          replacements for legacy production systems to increase efficiency,
+          security, and reliability of the systems.
+          (Ubuntu, PHP, Python, bash, MariaDB, JIRA)
 \end{itemize}
  
 {\sl Software Engineer Intern} \hfill May 2013 - August 2013 \\
 \textbf{Vencore, Inc. (formerly The SI Organization)}, King of Prussia, PA
 \begin{itemize} 
-    \item Designed, implemented, and deployed internal security management
-          applications and other internal tools.
+    \item[] Automated internal business process that previously required over
+          500 man hours a year to complete, saving the company thousands of
+          dollars in operating costs.
+          (C\#, SharePoint, OpenXML SDK)
+    \item[] Designed, implemented, and deployed internal security management
+          applications responsible for managing employee foreign contacts as
+          required by the Department of Defense for defense contractors.
+          (C\#, ASP.NET MVC, MSSQL)
 \end{itemize} 
 
 {\sl Software Engineer Intern} \hfill May 2012 - August 2012 \\
 \textbf{Siemens Industry, Inc.}, Spring House, PA
 \begin{itemize}
-    \item System, integration, and acceptance test execution and development
+    \item[] System, integration, and acceptance test execution and development
           for the Research and Development department.
+          (IBM Rational ClearCase, PCS 7 OS, APACS OS)
 \end{itemize} 
 
 \section{Projects}
 
 \begin{itemize}
-    \item \texttt{reaper}: an open source research tool used to classify
-          whether repositories contain engineered software projects. The paper
-          is currently pending review for acceptance at the International
+    \item \texttt{reaper}: an open source research tool used to classify and
+          score repositories which contain engineered software projects. The
+          paper is currently pending review for acceptance at the International
           Conference on Software Engineering (ICSE). Technologies utilized
           include Python, MySQL, and the GitHub API.
     \item Rate My Co-op: an application built for RIT students to rate
@@ -121,11 +135,6 @@ starting in the Fall of 2016.
           router, a BIND9 DNSSEC name server, and glue code that works together
           to ensure up to date DNS records for home VPN access.
 \end{itemize}
-
-\section{Extracurricular Activities}
-
-Free and Open Source Software, Society of Software Engineers, codeRIT, RIT Lug \\
-Vinyl, Motorcycling, Traveling, History, Photography, American Sign Language
 
 \end{resume}
 \end{document}
